@@ -1,10 +1,11 @@
-type TupleToObject<T extends readonly (string | number | symbol)[]> = {
+type TupleToObject<T extends readonly (string | number)[]> = {
   [P in T[number]]: P
 }
 
 const tuple = ['tesla', 'model 3', 'model X', 'model Y'] as const
+const tupleNumber = [1, 2, 3, 4] as const
 
-type r = TupleToObject<typeof tuple>
+type r = TupleToObject<typeof tupleNumber>
 // r = readonly ["0", "1", "2", "3"]
 // 得出结论：keyof array -> 索引
 
