@@ -24,4 +24,4 @@ type Replace<
 // 2.
 // S extends `${infer Left}${From}${infer Right}` ? `${Left}${To}${Right}` : S
 
-//上面这个方法，也是有一个过不去，需要排除From为空字符串的情况
+// 上面这个方法，也是有一个过不去，需要排除 From 为空字符串的情况

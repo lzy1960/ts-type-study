@@ -4,4 +4,4 @@ type TrimLeft<S extends string> = S extends `${' ' | '\n' | '\t'}${infer Rest}`
 
 // 用递归
 // 第一次是想着用数组拼出字符串
-// 但其实用字符串+infer就可以了
+// 但其实用字符串 +infer 就可以了

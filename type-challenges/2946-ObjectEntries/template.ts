@@ -8,4 +8,4 @@ type ObjectEntries<T> = {
 // 但是看了答案，并不需要递归
 
 // 这个方法是：
-// 把每一项都转化 key: [key, value] 的格式，然后根据 key 取出全部的value
+// 把每一项都转化 key: [key, value] 的格式，然后根据 key 取出全部的 value

@@ -9,8 +9,8 @@ type T1 = MyAwaited<Z1> // Promise<string | boolean>
 // type MyAwaited<T> = T extends Promise<infer P> ? P : never
 // 上面这种做法，最后一个测试用例不能通过，并且下面的 @ts-expect-error 会报错
 
-// **传入的是Promise，所以还需要递归
+// ** 传入的是 Promise ，所以还需要递归
 
 // type MyAwaited<T extends Promise<unknown>> = T extends Promise<infer P> ? (P extends Promise<infer S> ? S : P) : never
 // 上面这种写法，用例都能通过，但是感觉有点繁琐
-// 而且如果有三层Promise就无法通过了
+// 而且如果有三层 Promise 就无法通过了

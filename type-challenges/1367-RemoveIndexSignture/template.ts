@@ -10,9 +10,9 @@ type Foo1 = {
   foo(): void
 }
 
-type A = RemoveIndexSignature<Foo1> // expected { foo(): void }
+type A1 = RemoveIndexSignature<Foo1> // expected { foo(): void }
 
 // 思考
 // 怎么排除 key 在 [] 里面的？
-// 需要在 [] 里面断言检测Key的类型，是否属于字符串
-// TODO:infer K没有用，不知道为什么要这样写
+// 需要在 [] 里面断言检测 Key 的类型，是否属于字符串
+// TODO:infer K 没有用，不知道为什么要这样写

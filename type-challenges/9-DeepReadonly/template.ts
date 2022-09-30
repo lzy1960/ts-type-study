@@ -31,6 +31,6 @@ type X = {
 //   readonly [P in keyof T]: T[P] extends object ? T[P] : DeepReadonly<T[P]>
 // }
 
-// 检测是否有key
-// 用keyof xxx
-// 如果有key，那么他就是大括号包裹的
+// 检测是否有 key
+// 用 keyof xxx
+// 如果有 key ，那么他就是大括号包裹的

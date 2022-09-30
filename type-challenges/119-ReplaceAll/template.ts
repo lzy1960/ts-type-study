@@ -10,4 +10,4 @@ type ReplaceAll<
   ? `${Left}${To}${ReplaceAll<Right, From, To>}`
   : S
 
-// 用Replace+递归实现
+// 用 Replace+ 递归实现

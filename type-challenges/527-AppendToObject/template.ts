@@ -5,5 +5,5 @@ type AppendToObject<T, U extends string, V> = {
 }
 
 // 思路
-// 1. 原来的key和新的key组成联合类型
+// 1. 原来的 key 和新的 key 组成联合类型
 // 2. 然后条件判断

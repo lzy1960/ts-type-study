@@ -7,7 +7,7 @@ const tupleNumber = [1, 2, 3, 4] as const
 
 type r = TupleToObject<typeof tupleNumber>
 // r = readonly ["0", "1", "2", "3"]
-// 得出结论：keyof array -> 索引
+// 得出结论： keyof array -> 索引
 
 // js
 // function tupleToObject (array) {

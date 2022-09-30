@@ -8,4 +8,4 @@ type FlipArguments<T extends Function> = T extends (
   : T
 
 // 不需要递归
-// 利用之前做的Reverse
+// 利用之前做的 Reverse

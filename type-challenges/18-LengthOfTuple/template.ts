@@ -4,4 +4,4 @@ type Length<T extends readonly unknown[]> = T['length']
 //   return array.length
 // }
 
-// 元组的长度使用T['length']获取
+// 元组的长度使用 T['length'] 获取

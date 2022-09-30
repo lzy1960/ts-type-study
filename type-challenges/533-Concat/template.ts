@@ -3,4 +3,4 @@
 
 type Concat<T extends unknown[], U extends unknown[]> = [...T, ...U]
 
-// ...运算符可以展开数组类型
+// ... 运算符可以展开数组类型

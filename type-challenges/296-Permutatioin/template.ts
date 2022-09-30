@@ -11,9 +11,9 @@ type C = D<never> // never
 
 type E = Permutation<'A' | 'B' | 'C'>
 
-// never是空的联合类型
-// 泛型传入never，则不会执行，就是never
+// never 是空的联合类型
+// 泛型传入 never ，则不会执行，就是 never
 // 要用中括号包起来
 
-// 泛型U的作用：保存T之前的内容
+// 泛型 U 的作用：保存 T 之前的内容
 // 递归排除

@@ -8,4 +8,4 @@ type MyExclude<T, U> = T extends U ? never : T
 
 // a = b
 
-// extends表示可以被赋值
+// extends 表示可以被赋值
